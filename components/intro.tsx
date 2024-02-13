@@ -52,9 +52,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Satyajeet Gaur.</span> I'm a{" "}
         <span className="font-bold">software developer</span> pursuing{" "}
-        <span className="font-bold">Master of Computer Application.</span>{" "}I enjoy
-        building <span className="italic">sites & apps</span>. Currently, my focus is {" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Master of Computer Application.</span> I
+        enjoy building <span className="italic">sites & apps</span>. Currently,
+        my focus is <span className="underline">React (Next.js)</span>.
       </motion.p>
 
       <motion.div
@@ -69,18 +69,30 @@ export default function Intro() {
           href="#"
           className="group flex bg-gray-900 text-white px-7 py-3 items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
-          Contact me here <BsArrowRight 
-          className="opacity-70 group-hover:translate-x-1 transition"/>
+          Contact me here{" "}
+          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-        <a className="group flex bg-white rounded-full gap-2 px-7 py-3 items-center outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10" href="/CV.pdf" download>
-          Downlaod CV <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
+        <a
+          className="group flex bg-white rounded-full gap-2 px-7 py-3 items-center outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          href="/CV.pdf"
+        >
+          View CV{" "}
+          <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
         </a>
 
-        <a className="bg-white flex p-4 rounded-full items-center gap-2 text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10" href="https://www.linkedin.com/in/the-satyajeet/" target="_blank">
+        <a
+          className="bg-white flex p-4 rounded-full items-center gap-2 text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10"
+          href="https://www.linkedin.com/in/the-satyajeet/"
+          target="_blank"
+        >
           <BsLinkedin />
         </a>
 
-        <a className="bg-white flex p-4 rounded-full items-center gap-2 text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10 text-[1.35rem]" href="https://github.com/the-satyajeet" target="_blank">
+        <a
+          className="bg-white flex p-4 rounded-full items-center gap-2 text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10 text-[1.35rem]"
+          href="https://github.com/the-satyajeet"
+          target="_blank"
+        >
           <FaGithubSquare />
         </a>
       </motion.div>
