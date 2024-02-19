@@ -35,12 +35,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Smart India Hackathon",
+    location: "Lovely Professional University",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Took part in the Smart India Hackathon, engaging in a rigorous 36-hour session and effectively devised a solution for the challenge: Creating and implementing a system to improve education quality in rural regions.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Real Estate Price Prediction",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Created and led 'Real Estate Price Prediction' to offer accurate property price estimates in Indian Rupees, considering factors like area, bedrooms, bathrooms, and location.",
+    tags: ["Python", "Machine Learning", "Flask", "HTML/CSS", "JavaScript"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Chat Application",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Built a Java chat application to facilitate simultaneous communication among users, incorporating features for chatting with single or multiple clients",
+    tags: ["Java", "AWT", "Swing", "TCP"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Car Insurance Management System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed algorithms to process user car details and generate a comprehensive list of insurance prices",
+    tags: ["C++", "OOP", "File Handling"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
