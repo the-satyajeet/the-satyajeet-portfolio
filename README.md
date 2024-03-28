@@ -5,7 +5,7 @@
 <p id="description">Software Engineering graduate with ongoing Master's in Computer Application. Seeking to apply fundamental knowledge analytical prowess and programming skills as an entry-level software engineer. Eager to contribute to innovative projects and continue professional growth.</p>
 
 
-
+<p></>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
