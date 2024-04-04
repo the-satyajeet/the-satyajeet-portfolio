@@ -4,6 +4,9 @@
 
 <p id="description">Software Engineering graduate with ongoing Master's in Computer Application. Seeking to apply fundamental knowledge analytical prowess and programming skills as an entry-level software engineer. Eager to contribute to innovative projects and continue professional growth.</p>
 
+## Technologies used
+* NextJS
+* Framer Motion
 
 <p></>
 
